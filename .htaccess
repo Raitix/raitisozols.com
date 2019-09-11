@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.raitisozols.com [NC]
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ http://raitisozols.com/$1 [L,R=301]
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+<RequireAll>
+    Require ip 87.110.27.123
+</RequireAll>
+
+deny from 78.84.183.169
+deny from 122.55.21.227
