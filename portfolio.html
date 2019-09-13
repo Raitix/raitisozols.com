@@ -18,11 +18,15 @@
     <link rel="shortcut icon" href="/favicon.ico"/>
     <title>Raitis Ozols - Portfolio</title>
     
+    
+    
 </head>
 
 <body>
 
     <img src="img/bg-right-down-small-trans.png" style="position: fixed; right: -10%; bottom: -10%;">
+    <img src="img/scroll-to-top.png" class="fixed-bottom goToTopButton" style="display: none; float: left; width: 80px; margin-bottom: 20px; margin-left: 20px; opacity: 0.4; cursor: pointer;">
+    
 
     <div class="container-fluid" style="margin: 0px; padding: 0px;">
         <div class="row" style="margin: 0px; padding: 0px;">
@@ -33,7 +37,7 @@
                     <div class="col-md-3" style="background: #3F1FFE;">
                             
                         <div>
-                            <span style="display:block; color: white; font-size: 4vw; font-family: Poppins; font-weight: lighter; text-align:center; padding-top:30px">PORTFOLIO</span>
+                            <span style="display:block; color: white; font-size: 36px; font-family: Poppins; font-weight: lighter; text-align:center; padding-top:45px">PORTFOLIO</span>
                         </div>
                         
                         <div style="display:block; text-align: center; min-width: 100%; bottom: 0px" class="">
@@ -733,6 +737,27 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
+    
+    <!-- Script - Got to top button -->
+    <script type="text/javascript">
+        
+        $('.goToTopButton').click(function() {
+            window.scrollTo(0, 0);
+        });
+        
+        $(document).scroll(function() {
+            
+            var y = $(this).scrollTop();
+            
+            if (y > 10) {
+                $('.goToTopButton').fadeIn();
+            } else {
+                $('.goToTopButton').fadeOut();
+            }
+            
+        });
+        
+    </script>
 
 </body>
 
