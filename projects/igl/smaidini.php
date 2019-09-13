@@ -1,0 +1,50 @@
+<?
+// Smaidiòi
+$smaidins_1='<img src="smaidini/1.gif">';
+$smaidins_2='<img src="smaidini/2.gif">';
+$smaidins_3='<img src="smaidini/3.gif">';
+$smaidins_4='<img src="smaidini/4.gif">';
+$smaidins_5='<img src="smaidini/5.gif">';
+$smaidins_6='<img src="smaidini/6.gif">';
+$smaidins_7='<img src="smaidini/7.gif">';
+$smaidins_8='<img src="smaidini/8.gif">';
+$smaidins_9='<img src="smaidini/9.gif">';
+$smaidins_10='<img src="smaidini/10.gif">';
+$smaidins_11='<img src="smaidini/11.gif">';
+$smaidins_12='<img src="smaidini/12.gif">';
+$smaidins_13='<img src="smaidini/13.gif">';
+$smaidins_14='<img src="smaidini/14.gif">';
+$smaidins_15='<img src="smaidini/15.gif">';
+$smaidins_16='<img src="smaidini/16.gif">';
+$smaidins_17='<img src="smaidini/17.gif">';
+$smaidins_18='<img src="smaidini/18.gif">';
+$smaidins_19='<img src="smaidini/19.gif">';
+$smaidins_20='<img src="smaidini/20.gif">';
+$smaidins_21='<img src="smaidini/21.gif">';
+$smaidins_22='<img src="smaidini/22.gif">';
+$smaidins_23='<img src="smaidini/23.gif">';
+
+$main = str_replace(":)", $smaidins_1, $main);
+$main = str_replace(":(", $smaidins_2, $main);
+$main = str_replace(";)", $smaidins_3, $main);
+$main = str_replace(";(", $smaidins_4, $main);
+$main = str_replace(";o", $smaidins_5, $main);
+$main = str_replace(":@", $smaidins_6, $main);
+$main = str_replace(":P", $smaidins_7, $main);
+$main = str_replace(":D", $smaidins_8, $main);
+$main = str_replace("{time}", $smaidins_9, $main);
+$main = str_replace("{labais}", $smaidins_10, $main);
+$main = str_replace("{gaviles}", $smaidins_11, $main);
+$main = str_replace("{skatos}", $smaidins_12, $main);
+$main = str_replace("{devil}", $smaidins_13, $main);
+$main = str_replace("{ban}", $smaidins_14, $main);
+$main = str_replace("{matrix}", $smaidins_15, $main);
+$main = str_replace("{killaruna}", $smaidins_16, $main);
+$main = str_replace("{foto}", $smaidins_17, $main);
+$main = str_replace("{sister}", $smaidins_18, $main);
+$main = str_replace("{engelis}", $smaidins_19, $main);
+$main = str_replace("{austinas}", $smaidins_20, $main);
+$main = str_replace("{zirneklis}", $smaidins_21, $main);
+$main = str_replace("{trenins}", $smaidins_22, $main);
+$main = str_replace("{dzertins}", $smaidins_23, $main);
+?>
