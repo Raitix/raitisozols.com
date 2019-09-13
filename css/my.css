@@ -63,7 +63,7 @@ a:hover {
     background: white;
     border-radius: 42px;
     padding: 15px;
-    margin: 130px 10px 30px 0px;
+    margin: 90px 10px 30px 0px;
     font-family: Poppins;
     font-weight: bold;
     color: #3F1FFE;
@@ -116,51 +116,51 @@ a:hover {
 }
 
 .socialButtonFB {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-fb.png");
+    content: url("/img/icon-fb.png");
 }
 
 .socialButtonFB:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-fb-black.png");
+    content: url("/img/icon-fb-black.png");
 }
 
 .socialButtonLinkedIn {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-linkedin.png");
+    content: url("/img/icon-linkedin.png");
 }
 
 .socialButtonLinkedIn:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-linkedin-black.png");
+    content: url("/img/icon-linkedin-black.png");
 }
 
 .socialButtonGit {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-git.png");
+    content: url("/img/icon-git.png");
 }
 
 .socialButtonGit:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-git-black.png");
+    content: url("/img/icon-git-black.png");
 }
 
 .socialButtonYT {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-yt.png");
+    content: url("/img/icon-yt.png");
 }
 
 .socialButtonYT:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-yt-black.png");
+    content: url("/img/icon-yt-black.png");
 }
 
 .socialButtonTwitch {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitch.png");
+    content: url("/img/icon-twitch.png");
 }
 
 .socialButtonTwitch:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitch-black.png");
+    content: url("/img/icon-twitch-black.png");
 }
 
 .socialButtonTwitter {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitter.png");
+    content: url("/img/icon-twitter.png");
 }
 
 .socialButtonTwitter:hover {
-    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitter-black.png");
+    content: url("/img/icon-twitter-black.png");
 }
 
 
