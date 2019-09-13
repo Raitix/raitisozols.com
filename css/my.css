@@ -16,6 +16,20 @@ a:hover {
     box-shadow: 0px 3px 10px 1px #707070ad;
 }
 
+.buttonCV2 {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin-bottom: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
 .buttonPortfolio {
     display:inline-block;
     background: white;
@@ -58,10 +72,23 @@ a:hover {
     box-shadow: 0px 3px 10px 1px #707070ad;
 }
 
-.buttonPortfolio:hover, .buttonPortfolio2:hover, .buttonIntro:hover, .buttonCV:hover {
+.buttonIntro2 {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin: 130px 10px 30px 0px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
+.buttonPortfolio:hover, .buttonPortfolio2:hover, .buttonIntro:hover, .buttonIntro2:hover, .buttonCV:hover, .buttonCV2:hover {
     color: white;
     background: black;
-    opacity: 0.75;
 }
 
 .goToTopButton {
@@ -78,9 +105,62 @@ a:hover {
     opacity: 0.75;
 }
 
-.socialButtonFB {
+.socialButton {
     cursor: pointer;
-    background:url("/img/icon-fb.png");
-    width: 32px;
-    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
 }
+
+.socialButton:hover {
+    opacity: 0.75;
+}
+
+.socialButtonFB {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-fb.png");
+}
+
+.socialButtonFB:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-fb-black.png");
+}
+
+.socialButtonLinkedIn {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-linkedin.png");
+}
+
+.socialButtonLinkedIn:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-linkedin-black.png");
+}
+
+.socialButtonGit {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-git.png");
+}
+
+.socialButtonGit:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-git-black.png");
+}
+
+.socialButtonYT {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-yt.png");
+}
+
+.socialButtonYT:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-yt-black.png");
+}
+
+.socialButtonTwitch {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitch.png");
+}
+
+.socialButtonTwitch:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitch-black.png");
+}
+
+.socialButtonTwitter {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitter.png");
+}
+
+.socialButtonTwitter:hover {
+    content: url("C:/Users/Raitis/Desktop/My Web/img/icon-twitter-black.png");
+}
+
+
