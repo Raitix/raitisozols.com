@@ -1,0 +1,86 @@
+a:hover {
+    text-decoration: none;
+}
+
+.buttonCV {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin: 60px 15px 30px 0px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
+.buttonPortfolio {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin: 60px 0px 23px 0px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
+.buttonPortfolio2 {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin-bottom: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
+.buttonIntro {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    margin: 130px 10px 30px 0px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070ad;
+}
+
+.buttonPortfolio:hover, .buttonPortfolio2:hover, .buttonIntro:hover, .buttonCV:hover {
+    color: white;
+    background: black;
+    opacity: 0.75;
+}
+
+.goToTopButton {
+    display: none;
+    float: left;
+    width: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.goToTopButton:hover {
+    opacity: 0.75;
+}
+
+.socialButtonFB {
+    cursor: pointer;
+    background:url("/img/icon-fb.png");
+    width: 32px;
+    height: 32px;
+}
