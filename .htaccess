@@ -9,9 +9,10 @@ RewriteRule ^(.*)$ http://raitisozols.com/$1 [L,R=301]
 order allow,deny
 allow from all
 </Files>
-<RequireAll>
-    Require ip 87.110.27.123
-</RequireAll>
+
+#<RequireAll>
+#    Require ip 87.110.27.123
+#</RequireAll>
 
 deny from 78.84.183.169
 deny from 122.55.21.227
