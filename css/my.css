@@ -12,7 +12,7 @@ a:hover {
     display: block;
     background: white;
     border-radius: 42px;
-    font-family: Poppins;
+    /*font-family: Poppins;*/
     font-weight: regular;
     color: #707070;
     text-align: left;
@@ -75,7 +75,7 @@ a:hover {
     background: white;
     border-radius: 42px;
     padding: 15px;
-    font-family: Poppins;
+    /*font-family: Poppins;*/
     font-weight: bold;
     color: #3F1FFE;
     width: 160px;
@@ -96,7 +96,7 @@ a:hover {
     background: white;
     border-radius: 42px;
     padding: 15px;
-    font-family: Poppins;
+    /*font-family: Poppins;*/
     font-weight: bold;
     color: #3F1FFE;
     width: 160px;
@@ -117,7 +117,7 @@ a:hover {
     background: white;
     border-radius: 42px;
     padding: 15px;
-    font-family: Poppins;
+    /*font-family: Poppins;*/
     font-weight: bold;
     color: #3F1FFE;
     width: 160px;
