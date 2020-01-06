@@ -1,10 +1,225 @@
-a:hover {
-    /*text-decoration: none;*/
+/*
+*   BEGIN - All pages
+*/
+
+
+.goToTopButton {
+    display: none;
+    float: left;
+    width: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.goToTopButton:hover {
+    opacity: 0.75;
+}
+
+.buttonPortfolio:hover, .buttonPortfolio2:hover, .buttonIntro:hover, .buttonIntro2:hover, .buttonCV:hover, .buttonCV2:hover {
+    color: white;
+    background: black;
+}
+
+.bgAboveRight {
+    position: fixed;
+    right: -10%;
+    top: -10%;
+    z-index:-9999;
+}
+
+.bgBelowRight {
+    position: fixed;
+    right: -10%;
+    bottom: -10%;
+    z-index:-9999;
+}
+
+.buttonCV {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070;
+}
+
+.buttonPortfolio {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070;
+}
+
+.buttonIntro {
+    display:inline-block;
+    background: white;
+    border-radius: 42px;
+    padding: 15px;
+    font-weight: bold;
+    color: #3F1FFE;
+    width: 160px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 1px #707070;
+}
+
+
+/*
+*   END - All pages
+*/
+
+
+/*
+*   BEGIN - Intro page
+*/
+
+
+.bgLeftSide {
+    position:fixed;
+    top: 0;
+    left: 0;
+    background: #3F1FFE;
+    height: 100%;
+    width: 38%;
+}
+
+.textPro {
+    display: block;
+    color: #5B5B5B;
+    font-size: 3vw;
+    font-weight: lighter;
+    text-shadow: 1px 1px 0px white;
+}
+
+.textServices {
+    display: block;
+    color: #3F1FFE;
+    font-size: 4vw;
+    font-weight: regular;
+    text-shadow: 0px 0px 2px white;
+}
+
+.separatorLine {
+    display:block;
+    border-top: 4px solid #3F1FFE;
+    margin-right: 20%;
+    margin-left: -35%;
+    box-shadow: 1px 1px 0px white;
+}
+
+.textEmail {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: regular;
+}
+
+.textEmail a {
+    color: #707070;
+    text-decoration:none;
+}
+
+.textEmail img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.buttonContainer {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    text-align: center;
+}
+
+.imgSign {
+    margin-top: 50px;
+}
+
+.buttonCV1 {
+    margin: 60px 15px 30px 0px;
+}
+
+.buttonPortfolio1 {
+    margin: 60px 0px 23px 0px;
+}
+
+.buttonIntro1 {
+    margin: 90px 10px 30px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .divSign {
+        text-align: center;
+    }
+
+    .imgSign {
+        width: 70%;
+    }
+
+    .textContainer {
+        background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 100%);
+    }
+
+}
+
+
+/*
+*   END - Intro page
+*/
+
+
+/*
+*   BEGIN - CV page
+*/
+
+
+.imgCVEntryArrow {
+    max-width: 8vw;
+    margin-left: 3vw;
+}
+
+.buttonPortfolio2 {
+    margin-bottom: 40px;
+}
+
+.myNoMarginPadding {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+*   END - CV page
+*/
+
+
+/*
+*   BEGIN - Portfolio page
+*/
+
+
+.buttonCV2 {
+    margin-bottom: 40px;
+}
+
+.buttonIntro2 {
+    margin: 130px 10px 30px 0px;
 }
 
 .projectRow {
-    min-width: 100%;
-    /*padding-right: 50px;*/
+    /*min-width: 100%;*/
     padding-right: 3vw;
 }
 
@@ -12,14 +227,11 @@ a:hover {
     display: block;
     background: white;
     border-radius: 42px;
-    /*font-family: Poppins;*/
     font-weight: regular;
     color: #707070;
     text-align: left;
     box-shadow: 0px 3px 10px 1px #707070;
     height: 100%;
-    /*margin-left: 160px;
-    margin-left: 8vw;*/
     margin-left: 11vw;
     z-index: 100;
     min-width: 230px;
@@ -51,107 +263,6 @@ a:hover {
     box-shadow: 0px 0px 8px 8px rgba(0,0,0,0.5)
 }
 
-.imgCVEntryArrow {
-    max-width: 8vw;
-    margin-left: 3vw;
-}
-
-.bgAboveRight {
-    position: fixed;
-    right: -10%;
-    top: -10%;
-    z-index:-9999;
-}
-
-.bgBelowRight {
-    position: fixed;
-    right: -10%;
-    bottom: -10%;
-    z-index:-9999;
-}
-
-.buttonCV {
-    display:inline-block;
-    background: white;
-    border-radius: 42px;
-    padding: 15px;
-    /*font-family: Poppins;*/
-    font-weight: bold;
-    color: #3F1FFE;
-    width: 160px;
-    text-align: center;
-    box-shadow: 0px 3px 10px 1px #707070;
-}
-
-.buttonCV1 {
-    margin: 60px 15px 30px 0px;
-}
-
-.buttonCV2 {
-    margin-bottom: 40px;
-}
-
-.buttonPortfolio {
-    display:inline-block;
-    background: white;
-    border-radius: 42px;
-    padding: 15px;
-    /*font-family: Poppins;*/
-    font-weight: bold;
-    color: #3F1FFE;
-    width: 160px;
-    text-align: center;
-    box-shadow: 0px 3px 10px 1px #707070;
-}
-
-.buttonPortfolio1 {
-    margin: 60px 0px 23px 0px;
-}
-
-.buttonPortfolio2 {
-    margin-bottom: 40px;
-}
-
-.buttonIntro {
-    display:inline-block;
-    background: white;
-    border-radius: 42px;
-    padding: 15px;
-    /*font-family: Poppins;*/
-    font-weight: bold;
-    color: #3F1FFE;
-    width: 160px;
-    text-align: center;
-    box-shadow: 0px 3px 10px 1px #707070;
-}
-
-.buttonIntro1 {
-    margin: 90px 10px 30px 0px;
-}
-
-.buttonIntro2 {
-    margin: 130px 10px 30px 0px;
-}
-
-.buttonPortfolio:hover, .buttonPortfolio2:hover, .buttonIntro:hover, .buttonIntro2:hover, .buttonCV:hover, .buttonCV2:hover {
-    color: white;
-    background: black;
-}
-
-.goToTopButton {
-    display: none;
-    float: left;
-    width: 80px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    opacity: 0.4;
-    cursor: pointer;
-}
-
-.goToTopButton:hover {
-    opacity: 0.75;
-}
-
 .socialButton {
     cursor: pointer;
     min-width: 32px;
@@ -159,55 +270,66 @@ a:hover {
 }
 
 .socialButton:hover {
-    opacity: 0.75;
+    filter: invert(100%);
+    /*opacity: 0.75;*/
 }
 
 .socialButtonFB {
     content: url("/img/icon-fb.png");
 }
 
-.socialButtonFB:hover {
+/*.socialButtonFB:hover {
     content: url("/img/icon-fb-black.png");
-}
+}*/
 
 .socialButtonLinkedIn {
     content: url("/img/icon-linkedin.png");
 }
 
-.socialButtonLinkedIn:hover {
+/*.socialButtonLinkedIn:hover {
     content: url("/img/icon-linkedin-black.png");
-}
+}*/
 
 .socialButtonGit {
     content: url("/img/icon-git.png");
 }
 
-.socialButtonGit:hover {
+/*.socialButtonGit:hover {
     content: url("/img/icon-git-black.png");
-}
+}*/
 
 .socialButtonYT {
     content: url("/img/icon-yt.png");
 }
 
-.socialButtonYT:hover {
+/*.socialButtonYT:hover {
     content: url("/img/icon-yt-black.png");
-}
+}*/
 
 .socialButtonTwitch {
     content: url("/img/icon-twitch.png");
 }
 
-.socialButtonTwitch:hover {
+/*.socialButtonTwitch:hover {
     content: url("/img/icon-twitch-black.png");
-}
+}*/
 
 .socialButtonTwitter {
     content: url("/img/icon-twitter.png");
 }
 
-.socialButtonTwitter:hover {
+/*.socialButtonTwitter:hover {
     content: url("/img/icon-twitter-black.png");
+}*/
+
+@media only screen and (min-width: 1337px) {
+
+    .projectRow {
+        min-width: 100%;
+    }
+
 }
 
-
+/*
+*   END - Portfolio page
+*/
