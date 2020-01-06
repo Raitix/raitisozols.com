@@ -2,6 +2,9 @@
 *   BEGIN - All pages
 */
 
+html, body {
+    height: 100%;
+}
 
 .goToTopButton {
     display: none;
@@ -197,6 +200,7 @@
 .myNoMarginPadding {
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 
