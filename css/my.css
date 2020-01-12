@@ -145,6 +145,10 @@ html, body {
     text-align: center;
 }
 
+.buttonContainer a:hover {
+    text-decoration: none;
+}
+
 .imgSign {
     margin-top: 50px;
 }
@@ -223,7 +227,6 @@ html, body {
 }
 
 .projectRow {
-    /*min-width: 100%;*/
     padding-right: 3vw;
 }
 
@@ -275,56 +278,31 @@ html, body {
 
 .socialButton:hover {
     filter: invert(100%);
-    /*opacity: 0.75;*/
 }
 
 .socialButtonFB {
     content: url("/img/icon-fb.png");
 }
 
-/*.socialButtonFB:hover {
-    content: url("/img/icon-fb-black.png");
-}*/
-
 .socialButtonLinkedIn {
     content: url("/img/icon-linkedin.png");
 }
-
-/*.socialButtonLinkedIn:hover {
-    content: url("/img/icon-linkedin-black.png");
-}*/
 
 .socialButtonGit {
     content: url("/img/icon-git.png");
 }
 
-/*.socialButtonGit:hover {
-    content: url("/img/icon-git-black.png");
-}*/
-
 .socialButtonYT {
     content: url("/img/icon-yt.png");
 }
-
-/*.socialButtonYT:hover {
-    content: url("/img/icon-yt-black.png");
-}*/
 
 .socialButtonTwitch {
     content: url("/img/icon-twitch.png");
 }
 
-/*.socialButtonTwitch:hover {
-    content: url("/img/icon-twitch-black.png");
-}*/
-
 .socialButtonTwitter {
     content: url("/img/icon-twitter.png");
 }
-
-/*.socialButtonTwitter:hover {
-    content: url("/img/icon-twitter-black.png");
-}*/
 
 @media only screen and (min-width: 1337px) {
 
