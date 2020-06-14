@@ -207,6 +207,19 @@ html, body {
     height: 100%;
 }
 
+.cvSection {
+    margin-top: 10px;
+}
+
+.cvSection li {
+    margin-right: 50px;
+}
+
+.cvSection li ul li {
+    list-style: none;
+    margin: 10px auto 10px auto;
+}
+
 
 /*
 *   END - CV page
